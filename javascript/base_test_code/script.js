@@ -1,22 +1,9 @@
-/*
-var b = 104 
-if (b > 104) { 
-  b = (b / 104).toFixed(2) + 'MB';
- console.log('ciao', b)
+function sommato (y,x) {
+    return sommato(y,x);
 }
-*/
-console.log('ciao')
-
-function formatSize(size){
-  console.log('entro')
-   if (size>=1048576){
-     console.log('entro2')
-    size=(size/1048576).toFixed(2)+' MB';
-    console.log('dddd', size)
-    }
-  return size;
-  console.log('dddd', size)
+console.log(sommato(y,x))
+function somma (x = 2, y = 3) {
+var lopp = x + y;
+return lopp
 }
-
-formatSize(1048577);
-
+console.log(somma(x = 2,y = 3))
