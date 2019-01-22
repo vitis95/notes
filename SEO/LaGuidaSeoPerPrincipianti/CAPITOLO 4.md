@@ -140,3 +140,44 @@ Possono essere usati per controllare l'attività dello spider dei motori di rice
 ## Linee guida per la costruzione di URL
 ### Usa l'empatia
 + Mettiti nei panni di un utente e guarda la tua URL. Se puoi prevedere in modo facile e preciso il contenuto che ti aspetti di trovare sulla pagina, allora le tue URL sono scritte bene. Non serve spiegare ogni singolo dettaglio di una URL, ma averne un'idea di massima è un buon punto di partenza. 
+### Breve è meglio
++ E' importante avere una URL descrittiva
++ minimizzarne la lunghezza 
++ ridurre l'uso delle trailing slash ("/") renderà più semplice copiare e incollare l'URL (nelle email, nei post dei blog, nei messaggi dei testo, etc.) e sarà completamente visibile nei risultati di rirca, cioè non viene troncata
+### L'uso delle parole chiave è importante (ma l'abuso è pericoloso)
++ Se la tua pagina inidirzza uno specifico termine o frase, assicurati di includerlo nell'URL.
++ Tuttavia non esagerare nell'inserire parole chiave nelle URL ai fini SEOE
++ L'abuso genererà delle URL meno usabili e può attivare filtri anti spam (da parte dei client email, dei motori di ricerca e anche della gente!)
+### Scegli URL statiche
++ Con tecnologie come il mod_rewrite per Apache e ISAPI_rewtire per Microsoft, non ci sono più scuse per non creare URL semplici e statiche.
++ Anche singoli parametri dinamici in una URL possono influire negativamente su indicizzazione e posizionamento sui motori 
+### Scegli di essere descrittivo quando possibile
++ Invece di scegliere numeri o cifre prive di significato per classficare le informazioni, usa parole vere. 
+### Usa il trattino per separare le parole
++ Non tutti i motori di ricerca interpretano correttamente segni di separazione come il trattino basso "_", o il "+" o lo spazio "%20"
++ Quindi meglio usare il "-" per separare le parole in una url
+
+## Contenuti Canonici e versioni duplicate
+### META DESCRIPTION
++ <b> La canonicalizzazione </b> può essere un concetto difficile da capire e difficile da pronunciare, ma è fondamentale per creare e ottimizzare i siti. 
++ I problemi fondamentali nascono dal fatto che le stesse porioni di testo possono essere utilizzte più volte nel sito.
++ Per i motori di ricerca questo pone un enigma: quale versione del contennuto dovrebbero msotrare agli utenti che hanno effettuato una ricerca?
+
+--> La prassi della canonicalizzazione prevede l'organizzazione del contenuto in modo tale che ogni singolo pezzo abbia una ed una sola URL. 
++ Con questo processo puoi assicurarti che i motori troveranno una singola versione del tuo contenuto e le assegneranno il più alto posizionamento raggiiungibile in base all'autorevolezza e trust del tuo dominio, alla rilevanza e ad altri fattori. 
+### Un'altra opzione: Tag URL Canonico
++ Offre un'altra possibilità per ridurre i contenuti duplicati su un singolo sito e per canonicalizzare verso una singola URL
++ Il tag fa parte dell'header HTML della pagina web, la stessa sezione descritta nell'elemento Title e nel tag Meta Description. 
++ In questo caso si usa semplicemente un nuovo parametro "rel"
+<link rel=”canonical” href=”http://www.seomoz.org/blog”/>Questo dice a
+
++ Il tag URL Canonico è un attributo simile per molti versi al redirect 301 da un punto di vista SEO.
++ In sintesi stai dciendo ai motori che molte pagine dovrebbero essere considerate come una sola (cosa che fa il 301), senza di fatto ridirifere i visitatori verso una nuova URL
+
+## Difendere l'onore dei tuoi siti
++ Sfortunatamente il web é pieno di centinaia di migliaia (se non milioni) di siti senza scrupoli i cui modelli di business e traffico si basano sul razziare il contenuto di altri siti e riutilizzarli (qualche volta modificandoli) sul proprio. Questa pratica basata sulla raccolta di contenuti e sulla loro ripubblicazione é chiamata “scraping” e gli “scrapers” fanno degli ottimi guadagni superando nel ranking i siti con i loro stessi contenuti e mostrando pubblicità (ironicamente attraverso lo stesso programma Google Adsense).
++ Quando pubblichi contenuti con qualsiasi tipo di formato feed — RSS/XML/etc — assicurati di segnalarlo ai principali servizi di tracciamento dei blog (come Google, Technorati, Yahoo!, etc.). Puoi trovare le istruzioni su come segnalare i tuoi contenuti appena pubblicati a servizi come Google e Technorati direttamente dai rispettivi siti o attraverso un servizio come Pingomatic per automatizzare il processo. Se il tuo software per la pubblicazione dei contenuti é custom, é buona cosa che gli sviluppatori includano una funzionalità automatica di segnalazione dei contenuti a valle della loro pubblicazione.
++ Puoi usare la pigrizia degli scrapers contro di loro. La maggior parte degli scrapers sul web ripubblica il contenuto senza modificarlo e cosi, includendo i link verso il tuo sito nel post che hai scritto, puoi garantirti che i motori di ricerca vedano la maggior parte dei contenuti copiati con link verso il tuo contenuto (segno che la tua fonte é probabilmente quella originale). Per fare questo devi usare link assoluti, non relativi, nella tua struttura di link interni. Cosi invece di inserire un link verso la tua home page utilizzando:
+<a href="../>Home</a>dovresti invece utilizzare:<a href="http://www.seomoz.org">Home</a>
+
++ Ci sono altri modi più raffinati per proteggersi dallo scraping e per gli utenti di Wordpress Joost de Valk ha un plugin utile, ma nessuno di questi é facilissimo da applicare. Devi aspettarti che quanto più famoso e visibile diventa il tuo sito, tanto più spesso troverai i tuoi contenuti copiati e pubblicati altrove. Molte volte puoi ignorare questo problema, ma se diventa serio e vedi gli scraper portarti via il posizionamento ed il traffico, puoi valutare di avviare una procedura legale chiamata rimozione DMCA. Fortunatamente il legale interno di SEOmoz — Sarah Bird, ha scritto un ottimo pezzo per aiutare a risolvere questo problema — Four Ways to Enforce Your Copyright: What to Do When Your Online Content is Being Stolen. http://www.seomoz.org/blog/four-ways-to-enforce-your-copyright-what-to-do-when-your-online-content-is-being-stolen
