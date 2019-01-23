@@ -2,6 +2,27 @@
 + Nasce per le single page application
 
 
+
+
+# 0. Bootstrap 
+
+``` html
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <script src="lib/angular/angular.js"></script>
+  </head>
+  <body>
+
+    <p>Nothing here {{'yet' + '!'}}</p>
+
+  </body>
+</html>
+```
+
 <b>ng-app</b> - questo attributo rappresenta una direttiva AngularJS - è usato per contrassegnare un elemento HTML che angularJs considera come elemento ROOT dell'applicazione. Questo da la libertà agli sviluppatori di dire ad angularJs se l'intera pagina HTML o solo una parte di questa è trattata come un'applicazione AngularJs
 
 ## angular.js script tag:
@@ -19,9 +40,61 @@
 
 IMMAGINE ESPLICATIVA DELLA STRUTTURA - https://docs.angularjs.org/img/tutorial/tutorial_00.png
 
+### angular-seed 
++ È un progetto che viene in genere utilizzato per avviare nuovi progetti AngularJS 
++ È preconfigurato per installare il framework AngularJS e gli strumenti per sviluppare e testare una tipica applicazione web 
++ Il progetto phone-cat si basa su questo con alcune modifiche apportate
+
+# 1. Static Template
+***
+app/index.html
+<ul>
+  <li>
+    <span>Nexus S</span>
+    <p>
+      Fast just got faster with Nexus S.
+    </p>
+  </li>
+  <li>
+    <span>Motorola XOOM™ with Wi-Fi</span>
+    <p>
+      The Next, Next Generation tablet.
+    </p>
+  </li>
+</ul>
+***
+Abbiamo semplicemente scritto codice html statico all'interno della index.html che rappresentano due telefoni cellulari. 
+
+# 2. AngularJS Templates
+--> Rendere dinamica la pagina Web con AngularJS
+
 ## STRUTTURA APPLICAZIONI
 Ci sono diversi modi per struttura il codice di una applicazione. Questo tutorial (la guida ufficiale) incoraggia l'uso del design pattern MVC.
 
+***
+## View and Template
+
+***
+app/index.html diventa cosi:
+``` html
+<html ng-app="phonecatApp">
+<head>
+  ...
+  <script src="lib/angular/angular.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="PhoneListController">
+
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
+
+</body>
+</html>
+```
 ***
 
 <b> ng-repeat </b> - è una direttiva ripetitore
@@ -73,7 +146,7 @@ Vantaggio: utilizzo del codice non solo nella stessa applicazione ma anche tra l
 
 app / phone-list (raggruppa le funzionalità relative alla phone list, struttura html, componente tutto) / allo stesso livello di phone-list troviamo app.moduel.js e index.html
 
-## 5. Filtering Repeaters
+# 5. Filtering Repeaters
 ***
 ``` html
 <div class="container-fluid">
@@ -99,7 +172,7 @@ app / phone-list (raggruppa le funzionalità relative alla phone list, struttura
 </div>
 ```
 
-## 6. Two-way Data Binding 
+# 6. Two-way Data Binding 
 ``` html
 <ul class="phones">
   <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp"> <!-- Più o meno stesso discorso di prima, in questo caso però la funzione è orderBy una funzione che ordine -->
@@ -148,13 +221,385 @@ controller: function PhoneListController() {
 ```
 
 
-## 7. Qua utilizziamo qualcosa per fare qualcosa e quel qualcosa non mi è chiaro per fare una cosa che non mi è chiara scopriamoloooooooo dependency injection questa sconosciuta simpaticamente abbreviata (DI)
+# 7. Qua utilizziamo qualcosa per fare qualcosa e quel qualcosa non mi è chiaro per fare una cosa che non mi è chiara scopriamoloooooooo dependency injection questa sconosciuta simpaticamente abbreviata (DI)
+
++ Utilizzeremo la DI di AngularJS per fornire il servizio al phoneList controller del componente
 
 ## Component Controller
 
 $http - tipo questo è un servizio - lo utilizziamo nel nostro controller per fare una richiesta HTTP al web server per andare a prendere i dati nel file app/phones/phones.json --> è solo uno dei numerosi servizi AngularJS integrati che gestiscono operazioni comuni nelle applicazioni web 
 
-AngularJS - innietta questi servizi per te, proprio dove ne hai bisogno
+AngularJS - innietta questi servizi per te, proprio dove ne hai bisogno --> app/phones/phones.json
 
 FRASE PER IL MOMENTO POCO CHIARA MA CHE SEMBRA FONDAMENTALE: 
 I servizi sono gestiti dal sottosistema DI di AngularJS. L'iniezione delle dipendenze aiuta a rendere le tue applicazioni web sia ben strutturate (ad esempio entità separate per la presentazione, i dati e il controllo) sia liberamente (le dipendenze tra entità non vengono risolte dalle entità stesse, ma dal sottosistema DI). Di conseguenza, anche le applicazioni sono più facili da testare.
+
+
+# 8. Templating Links & Images
++ Nel json dei dati dei phones c'è un id univoco e un link ad un'immagine, che punta alle immagini nella cartella app/img/phones
+
+``` html
+<ul class="phones">
+  <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+    <a href="#!/phones/{{phone.id}}" class="thumb"> <!--  -->
+      <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" /> <!--  -->
+    </a>
+    <a href="#!/phones/{{phone.id}}">{{phone.name}}</a>
+    <p>{{phone.snippet}}</p>
+  </li>
+</ul>
+```
+
+# 9. Routing & Multiple Views
+
+
++ <b>ngRoute<b> - modulo angularJs che ti permette di collegare le diverse viste di un'applicazione
+
++ per aggiungere la vista dettagliata, trasformeremo index.html in quello che chiamiamo layout template
+
++ i percorsi delle applcaioni in AngularJS sono dichiarati tramite $routeProvider, che è il fornitore del servizio $route
+
++ Questo servizio semplifica il collegamento di controller, modelli di visualizzazione e la posizione corrente dell'URL nel browser
+
++ Utilizzando questa funzionalità, possiamo implementare il deep linking, che ci consente di utilizzare la cronologia del browser
+
+## A note about DI, Injector and Providers
++ La DI è il cuore di AngularJS
+Come funziona?
++ Quando l'applicazione si avvia, AngularJS crea un iniettore che sarà usato per trovare e inniettare tutti i servizi che sono richiesti dall'applicazione
++ L'inniettore non sa cosa i servizi come $http o $route fanno
+
+## L'inniettore esegue i seguenti passaggi:
++ Carica la definizione del modulo che hai specificato nella tua applicazione 
++ Registra tutti i provider definiti in queste definizioni di modulo 
++ Quando viene richiesto di farlo, istanzia pigramente i servizi e le loro dipendenze, tramite i loro provider, come parametri per una funzione iniettabile
+
+<b> provider </b> - sono oggetti che si occupano di creare istanze ed esporre configurazioni API che possono essere usate per controllare la creazione e il comportamento in runtime di un servizio.
+
++ Per esempio: $routeProvider espone API che ti permetetono di definire le rotte della tua applicazione
+
+
+## Template
++ Il servizio $route è di solito usato insieme alla direttiva ngView.
++ Il ruolo di questa direttiva è di includere the view template della rotta corrente nel layout template
+
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="phone-list/phone-list.module.js"></script>
+    <script src="phone-list/phone-list.component.js"></script>
+    <script src="phone-detail/phone-detail.module.js"></script>
+    <script src="phone-detail/phone-detail.component.js"></script>
+  </head>
+  <body>
+
+    <div ng-view></div>
+
+  </body>
+</html>
+
++ Questa è la index.html
++ Abbiamo aggiunto nuovi script:
+  + angular-route.js - definisce il modulo ngRoute di angularJS che ci fornisce il routing
+  + app.config.js - configura i provider disponibili per il nostro modulo princiale 
+  + phone-detail.module.js - definisce un nuovo modulo che contiene il componente phoneDetail
+  + phone-detail.component.js - definisice un componente fittizio phoneDetail
+
+
+## Configurazione di un modulo 
++ il modulo .config() di un modulo ci consente di accedere ai provider disponibili per la configurazione
++ per rendere disponibili alla nostra applicazione i provider, i servizi e le direttive definiti in ngRoute, dobbiamo aggiungere ngRoute come dipendenza del nostro modulo phonecatApp
+
+***
+app.config.js
+angular.
+  module('phonecatApp').
+  config(['$routeProvider',
+    function config($routeProvider) {
+      $routeProvider.
+        when('/phones', {
+          template: '<phone-list></phone-list>'
+        }).
+        when('/phones/:phoneId', {
+          template: '<phone-detail></phone-detail>'
+        }).
+        otherwise('/phones');
+    }
+  ]);
++ usando il metodo .config() chiediamo ai fornitori necessari (ad esempio $routeProvider) di essere iniettati nella nostra funzione di configurazione e quindi di usare i loor metodi per specificare il comportamento dei servizi corrispondenti
++ qui utilizziamo i metodi $routeProvider.when() e $routeProvider.otherwise() per definire i notri percorsi di applicazione
+***
+
+# 10. More Templating
++ oltre a phone.json
++ la directory app/phones/ contiene anche un JSON per ogni telefono
++ ogni file di un telefono contiene le informazioni del telefono che andremo a visualizzare nella lista singola di un telefono
+
+## Controller di componenti
++ Espanderemo il controller del componente phoneDetail utilizzndo il servizio $http per scawricare i file JSON appropriati
++ Funziona allo stesso modo del controller del componente PhoneList
+
+***
+
+phone-detail.component.js
+
+// Register `phoneDetail` component, along with its associated controller and template
+angular.
+  module('phoneDetail').
+  component('phoneDetail', {
+    templateUrl: 'phone-detail/phone-detail.template.html',
+    controller: ['$http', '$routeParams',
+      function PhoneDetailController($http, $routeParams) {
+        var self = this;
+
+        $http.get('phones/' + $routeParams.phoneId + '.json').then(function(response) {
+          self.phone = response.data;
+        });
+      }
+    ]
+  });
+
++ per costruire l'URL per la richiesta HTTP, usiamo $routeParams.phoneId, che viene estratto dal percorso corrente dal servizio $route
+
+***
+
+
+# Customo Filters
+
+## Templates
+
+***
+index.html
+
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script> <!-- QUA -->
+    <script src="core/checkmark/checkmark.filter.js"></script> <!-- QUA -->
+    <script src="phone-list/phone-list.module.js"></script>
+    <script src="phone-list/phone-list.component.js"></script>
+    <script src="phone-detail/phone-detail.module.js"></script>
+    <script src="phone-detail/phone-detail.component.js"></script>
+  </head>
+  <body>
+
+    <div ng-view></div>
+
+  </body>
+</html>
+
++ Poiché abbiamo creato due nuovi file, dobbiamo includerli nel nostro modello di layout
+***
+
+La sintassi per usare i filtri in angularJs è la seguente:
+```
+{{expression | filter}}
+```
+
++ Impieghiamo il filtro nel modello dei dettagli del telefono:
+``` html
+<dl>
+  <dt>Infrared</dt>
+  <dd>{{$ctrl.phone.connectivity.infrared | checkmark}}</dd>
+  <dt>GPS</dt>
+  <dd>{{$ctrl.phone.connectivity.gps | checkmark}}</dd>
+</dl>
+```
+
+# 12. Event Handlers
+Cl click di una thumbnail image la ingrandiamo a sinistra
+
+## Component Controller
+***
+app/phone-detail/phone-detail.component.js:
+
+angular.
+  module('phoneDetail').
+  component('phoneDetail', {
+    templateUrl: 'phone-detail/phone-detail.template.html',
+    controller: ['$http', '$routeParams',
+      function PhoneDetailController($http, $routeParams) {
+        var self = this;
+
+        self.setImage = function setImage(imageUrl) {
+          self.mainImageUrl = imageUrl;
+        };
+
+        $http.get('phones/' + $routeParams.phoneId + '.json').then(function(response) {
+          self.phone = response.data;
+          self.setImage(self.phone.images[0]);
+        });
+      }
+    ]
+  });
+
++ in questo componente controller, abbiamo creato la proprietà del modello mainImageUrl e impostato il suo valore predefinito sul primo URL dell'immagine del telefono  
+
++ Abbiamo anche creato un metodo setImage () (da utilizzare come gestore di eventi), che cambierà il valore di mainImageUrl.
+***
+
+## Component Template
+***
+app/phone-detail/phone-detail.template.html:
+``` html
+<ul class="phone-thumbs">
+  <li ng-repeat="img in $ctrl.phone.images">
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" />
+  </li>
+</ul>
+```
++ Abbiamo associato la direttiva ngSrc dell'immagine grande alla proprietà $ctrl.mainImageUrl
++ Abbiammo anche registrato un gestore ngClick sulle immagini in miniatura
+
+***
+
+
+# 13. REST and Custom Services
++ In questo passaggio cambieremo il modo in cui la nostra applicazione recupera i dati 
++ Definiamo un servizio personalizzato che rappresenta un client RESTful
++ Usando questo client possiamo fare richieste di dati al server in un modo più semplice, senza dover gestire l'API $http, i metodi HTTP e gli URL di livello inferiore
+
+## Dipendenze 
++ La funzionalità RESTful è fornita da AngularJS nel modulo ngResource, che viene distribuito separatamente dal framework AngularJS principale.
++ Poiché stiamo utilizzando npm per installare le dipendene lato client, questo passaggio aggiorna il file di configurazione di package.json per includere la nuova dipendenza.
++ The new dependency "angular-resource": "1.7.x" tells npm to install a version of the angular-resource module that is compatible with version 1.7.x of AngularJS. We must tell npm to download and install this dependency.
+
+## Service
++ Creiamo il nostro servizio per fornire l'accesso ai dati el telefono sul server. 
++ Inseriremo il servizio nel suo modulo, sotto core, in modo che possiamo dichiarare esplicitamente la sua dipendenza da ngResource
+
+app/core/phone/phone.module.js:
+
+```
+angular.module('core.phone', ['ngResource']);
+```
+
+app/core/phone/phone.service.js:
+
+```
+angular.
+  module('core.phone').
+  factory('Phone', ['$resource',
+    function($resource) {
+      return $resource('phones/:phoneId.json', {}, {
+        query: {
+          method: 'GET',
+          params: {phoneId: 'phones'},
+          isArray: true
+        }
+      });
+    }
+  ]);
+```
+
+app/core/core.module.js:
+
+```
+angular.module('core', ['core.phone']);
+```
+
+## Template
++ il nostro servizio di risorse personalizzate verrà definito in app / core / phone / phone.service.js
++ quindi dobbiamo includere questo file e il file.module.js associat nel nostro modello di layout
++ inoltre, dobbiamo anche caricare il file angular-resource.js che contiene il modulo ngResource
+
+app/index.html:
+
+``` html
+<head>
+  ...
+  <script src="lib/angular-resource/angular-resource.js"></script>
+  ...
+  <script src="core/phone/phone.module.js"></script>
+  <script src="core/phone/phone.service.js"></script>
+  ...
+</head>
+```
+
+## Component Controllers
++ Ora possiamo semplificare i nostri controller di componenti (PhoneListController e PhoneDetailController) prendendo in considerazione il servizio $ http di livello inferiore, sostituendolo con il nuovo servizio telefonico. Il servizio risorse $ di AngularJS è più facile da utilizzare rispetto a $ http per l'interazione con le origini dati esposte come risorse RESTful. È anche più facile ora capire cosa sta facendo il codice nei nostri controllori.
+
+app/phone-list/phone-list.module.js:
+
+```
+angular.module('phoneList', ['core.phone']);
+```
+
+app/phone-list/phone-list.component.js:
+```
+angular.
+  module('phoneList').
+  component('phoneList', {
+    templateUrl: 'phone-list/phone-list.template.html',
+    controller: ['Phone',
+      function PhoneListController(Phone) {
+        this.phones = Phone.query();
+        this.orderProp = 'age';
+      }
+    ]
+  });
+```
+
+app/phone-detail/phone-detail.module.js:
+
+```
+angular.module('phoneDetail', [
+  'ngRoute',
+  'core.phone'
+]);
+```
+
+app/phone-detail/phone-detail.component.js:
+
+```
+angular.
+  module('phoneDetail').
+  component('phoneDetail', {
+    templateUrl: 'phone-detail/phone-detail.template.html',
+    controller: ['$routeParams', 'Phone',
+      function PhoneDetailController($routeParams, Phone) {
+        var self = this;
+        self.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
+          self.setImage(phone.images[0]);
+        });
+
+        self.setImage = function setImage(imageUrl) {
+          self.mainImageUrl = imageUrl;
+        };
+      }
+    ]
+  });
+```
+
+Notice how in PhoneListController we replaced:
+
+```
+$http.get('phones/phones.json').then(function(response) {
+  self.phones = response.data;
+});
+```
+
+with just
+
+```
+this.phones = Phone.query();
+```
+
+
+# 14. Animations
