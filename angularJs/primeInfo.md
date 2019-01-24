@@ -72,7 +72,10 @@ Abbiamo semplicemente scritto codice html statico all'interno della index.html c
 Ci sono diversi modi per struttura il codice di una applicazione. Questo tutorial (la guida ufficiale) incoraggia l'uso del design pattern MVC.
 
 ***
-## View and Template
+## View and Template 
+
++ In angularJS la vista è una proiezione del modello tramite il <b> modello </b> HTML
++ Quindi ogni volta che il modello cambia 
 
 ***
 app/index.html diventa cosi:
