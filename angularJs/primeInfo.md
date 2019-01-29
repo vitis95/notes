@@ -45,6 +45,8 @@ IMMAGINE ESPLICATIVA DELLA STRUTTURA - https://docs.angularjs.org/img/tutorial/t
 + È preconfigurato per installare il framework AngularJS e gli strumenti per sviluppare e testare una tipica applicazione web 
 + Il progetto phone-cat si basa su questo con alcune modifiche apportate
 
+***
+
 # 1. Static Template
 ***
 app/index.html
@@ -65,6 +67,8 @@ app/index.html
 ***
 Abbiamo semplicemente scritto codice html statico all'interno della index.html che rappresentano due telefoni cellulari. 
 
+***
+
 # 2. AngularJS Templates
 --> Rendere dinamica la pagina Web con AngularJS
 
@@ -75,7 +79,7 @@ Ci sono diversi modi per struttura il codice di una applicazione. Questo tutoria
 ## View and Template 
 
 + In angularJS la vista è una proiezione del modello tramite il <b> modello </b> HTML
-+ Quindi ogni volta che il modello cambia 
++ Quindi ogni volta che il modello cambia, AngularJS aggiorna i punti di binding appropriati, che aggiiornano la vissta 
 
 ***
 app/index.html diventa cosi:
@@ -103,25 +107,61 @@ app/index.html diventa cosi:
 <b> ng-repeat </b> - è una direttiva ripetitore
 Esempio: <li ng-repeat="phone in phones"> in questo per esempio dice di creare un elemento li per ogni phone 
 
+?????????????????? dove prende i telefoni ???????????????????????
+
+<body ng-controller="PhoneListController"> DIRETTIVA ng-controller collega il PhoneListController al body
 
 ## Controller
-Il controler permette di stabilire un data-binding tra il model e la view
++ Il controler permette di stabilire un data-binding (associazione di dati) tra il model e la view
++ È semplicemente una funzione di costruzione che accetta un $scope parametro 
+***
+app/app.js:
+```
+// Define the `phonecatApp` module
+var phonecatApp = angular.module('phonecatApp', []);
+
+// Define the `PhoneListController` controller on the `phonecatApp` module
+phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
+  $scope.phones = [
+    {
+      name: 'Nexus S',
+      snippet: 'Fast just got faster with Nexus S.'
+    }, {
+      name: 'Motorola XOOM™ with Wi-Fi',
+      snippet: 'The Next, Next Generation tablet.'
+    }, {
+      name: 'MOTOROLA XOOM™',
+      snippet: 'The Next, Next Generation tablet.'
+    }
+  ];
+});
+```
+***
+
++ Abbiamo dichiarato un controller chiamato PhoneListController e registrato in un modulo AngularJS phonecatApp
+
+
+RAGIONAMENTO CRUCIALE: 
++ Abbiamo collegato i punti tra la presentazione, i dati e i componenti logici come segue:
+  + la direttiva ngController, che si trova sul <body> tag, fa riferimento al nome del nostro controller PhoneListController che si trova in app.js
+  + Il PhoneListController è il controller che collega i dati del telefono a quello $scope che è stato iniettato nella nostra funzione di controller.
+
 
 ## Scope
 Il concetto di scope in angular è cruciale, è una colla che permette al template, al model e al controller di lavorare insieme. 
 + any changes made to the model are reflected in the view
 + any changes that occur in the view are reflected in the model
 
+***
 
-## Componenti
-combinazione template + controllor - è un pattern cosi frequente e ricorrente - angularJs fornisce un modo facile e conciso per combinarali insieme in entità riutilizzabili e isolate --> componenti 
+# 3. Componenti
+combinazione template + controller - è un pattern cosi frequente e ricorrente - angularJs fornisce un modo facile e conciso per combinarali insieme in entità riutilizzabili e isolate --> componenti 
 
 ### Creare un componente
 .component() metodo di un modulo AngularJs
 
 # 4. DIRECTORY E ORGANIZZAZIONE FILE 
-
-
+NON AGGINGIAMO FUNZIONALITÀ - FACCIAMO RIFATTORIZZIAMO IL NOSTRO PROGETTO
 
 ## One Feature per File
 We should put each feature / entity in its own file. Each standalone controller will be defined in its own file, each component will be defined in its own file ecc. 
@@ -194,13 +234,18 @@ app / phone-list (raggruppa le funzionalità relative alla phone list, struttura
 ```
 <b>orderBy</b> - è un fiiltro che accetta un array in input, lo copia e riordina la copia che viene poi restituita 
 
-Questa cosa di collegare banalmente un ng-repeat e un ng-model è un data-binding
++ Questa cosa di collegare banalmente un ng-repeat e un ng-model è un data-binding
 
-Ogni volta che qualcosa cambia, per esempio si agisce sul ng-model (quindi ogni volta che il modello cambia) - il data-biding di AngularJs (quindi l'associazione dati di AngularJs) farà si che la vista si aggiorni automaticamente
++ Ogni volta che qualcosa cambia, per esempio si agisce sul ng-model (quindi ogni volta che il modello cambia) - il data-biding di AngularJs (quindi l'associazione dati di AngularJs) farà si che la vista si aggiorni automaticamente
 
 
 
-Ovviamente è stato modificato il model di phones cambiando l'array dei phones aggiungendo la proprietà age (1, 2, 3) e settando il valore di default di orderProp ad age - altrimenti l'orderBy rimarrebbe non inizializzato
++ Ovviamente è stato modificato il model di phones cambiando l'array dei phones aggiungendo la proprietà age (1, 2, 3) e settando il valore di default di orderProp ad age - altrimenti l'orderBy rimarrebbe non inizializzato
+
++ Impostando orderProp a "age" nel controller - il binding funziona nella direzione dal nostro modello all'interfaccia utente
++ Se si seleziona "alfabetico" nel menu a discesa, il modello verrà aggiornato e i telefoni verranno riordinati - data binding che fa il suo lavoro nella direzione opposta - dall'interfaccia utente al modello 
+
+
 ``` js
 controller: function PhoneListController() {
       this.phones = [
@@ -224,7 +269,9 @@ controller: function PhoneListController() {
 ```
 
 
-# 7. Qua utilizziamo qualcosa per fare qualcosa e quel qualcosa non mi è chiaro per fare una cosa che non mi è chiara scopriamoloooooooo dependency injection questa sconosciuta simpaticamente abbreviata (DI)
+# 7. XHR e iniezione delle dipendenze
+
+## Qua utilizziamo qualcosa per fare qualcosa e quel qualcosa non mi è chiaro per fare una cosa che non mi è chiara scopriamoloooooooo dependency injection questa sconosciuta simpaticamente abbreviata (DI)
 
 + Utilizzeremo la DI di AngularJS per fornire il servizio al phoneList controller del componente
 

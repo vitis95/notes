@@ -1,0 +1,18 @@
+H1{ color: red; }
+
+
+// Estensione dedlla classe button
+.botton-back{
+    background: #3c3c3c;
+    color: #ffffff;
+    border: red;
+    &:hover{
+        background: #ffffff;
+        color: #ffffff;
+    }
+
+}
+
+.botton-forward{
+    @extend .botton-back;
+}

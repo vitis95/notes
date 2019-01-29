@@ -1,0 +1,49 @@
+@import "pagina1";
+
+
+// SCSS 
+DIV{
+    background: #4cae4c;
+    &:nth-child(even){
+      background: #00b3ee;
+    }
+  }
+
+  UL{
+    float: right;
+    @media screen and (max-width: 700px) {
+      width: 100px;
+    }
+    LI{
+      float: left;
+      margin-right: 30px;
+      list-style: none;
+      &:last-child{
+        margin-right: 15px;
+      }
+    }
+  }
+
+
+
+  // CSS NORMALE
+  //UL{float: right;}
+  //UL LI{float: left; margin-right: 30px; list-style: none;}
+  //LI:first-child{
+  //
+  //}
+  //LI:last-child{
+  //
+  //}
+  //
+  //LI:nth-child(3){
+  //
+  //}
+
+/*
+  @media screen and (max-width: 700px) {
+    Ul{
+      width: 100px;
+    }
+  }
+*/
