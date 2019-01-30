@@ -20,6 +20,21 @@ angular.module("mioModulo", ["modulo1", "modulo2", "modulo3"]);
 ```
 
 
+DALLA DOCUMENTAZIONE 
++ Modello - HTML con markup aggiuntivo - i dati mostrati all'utente nella vista e con cui l'utente interagisce 
++ Direttive - estendere HTML con attributi ed elementi personalizzati
++ Scopo - contesto in cui il modello è archiviato in modo che controllori, direttive ed espressioni possano accedervi 
++ Espressioni - accedere a variabili e funzioni dell'ambito
++ Compiler - analizza il modello e crea un'istanza di direttive ed espressioni 
++ Filtro - formatta il valore di un'espressione per la visualizzazione all'utente
++ Vista - cosa vede l'utente (il DOM)
++ Associazione dati - sincronizzare i dati tra il modello e la vista 
++ Controller - la logica aziendale dietro le viste
++ Iniezione di dipendenza - crea e collega oggetti e funzioni
++ Iniettore - contenitore per iniezione di dipendenza
++ Modulo - un contenitore per le diverse parti di un'app inclusi i controller, serizi, filtri, direttive che configurano l'iniettore
++ Servizio - logica aziendale riutilizzabile indipendente dalle visualizzazioni
+
 
 
 
