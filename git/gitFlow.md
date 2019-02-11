@@ -58,3 +58,15 @@ $> git branch -D feat-nomedelfeaturebranch
     + Se abbiamo rilasciato una hotfix, che sostanzialmente non va ad intaccare le modalità di utilizzo del codice, dovremmo andare a incrementare il numero di <b> patch </b>
     + Se abbiamo implementato una modifica minore, spesso l'aggiunta di una feature che non pregiudica la retrocompatibilità del codice, andremo a incrementare il numero di <b> minor </b> versioning
     + Rilasci più consistenti che cambiano in maniera apprezzabile il funzionamento del codice andranno a incrementare il numero di <b> major </b> versioning 
+
+
+
+
+***
+
+# PROCEDIMENTO
+
++ Inizializza repo con git flow 
++ GitFlow: Start a Feature
++ pushare mergiare su develop e staccare un'altra feature
++ mergiare - vado su develop - git merge " nome branch "
