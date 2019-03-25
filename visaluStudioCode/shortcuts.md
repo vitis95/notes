@@ -1,0 +1,1 @@
+Ctrl + K Ctrl + s - visualizza shortcuts 

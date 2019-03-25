@@ -28,4 +28,29 @@
 + La capacità di raggiungere un link profile importante rappresenta un grosso vantaggio competitivo rispetto alla concorrenza
 1. <b>Accumulazione editoriale</b> - Link concessi naturalmente da siti e pagine che desiderano segnalare i tuoi contenuti o la tua società.
 + L'acqusizione di questi link non richiede alcuna attivitià SEO, se non la creazione di materiale che vale la pena diffondere e l'abilità di farlo conoscere alle community rilevanti
-2. <b> Suggerimento manuale e approvazione </b> -
+2. <b> Suggerimento manuale e approvazione </b> - Chiedere ai bloggere l'inserimento di un link, segnalare siti a directory o pagare per ottenere un link sono tutte attività di link building comprese in questo gruppo. Il professionista SEO deve saper offrire al sito taret una proposta di valore e completare successivamente la transazione manualmente.
+3. <b> Creati automamticamente, non editoriali </b> - Centinaia di migliaia di siti web offrono ad ogni visitatore la possibilità di creare link tramite firme su guestbook, firme su forum, commenti su blog o il completamente della propria scheda utente. Questi link possiedono in genere scarso valore, ma possono cmq, se presi nel complesso, avere un impatto significativo. In ogni caso il metodo di generazione automatica di questi link rientra sicuramente in una pratica d spam. La creazione amnuale stessa di queti link è inoltre spesso mal vista dai propreitari di siti e motori di ricerca. Le eccezioni sono numerose e tutti quei siti che concedono questa possibilità senza apporre l'attributo rel = "nofollow" sui link in uscita (OUTBOUND LINK) possono rappresentare un'opportunità di link building.
+
++ Come per ogni attività di marketing, il primo passo da compiere in una campagna di link ublding deve prevedere la deifnizone di obiettivi e strategie. Purtroppo, l'attivit di link bulding p una delle attività più difficili da misurare, soprattuto dal punto di vista di ottimizzazione per motori di ricerca. Nonostante gli algoritmi dei motori siano in gado di calcolare il vvalore di ciascun link con valori matmatici estremamente precisi, è impossibile per tutti color al di fuori del team di ingegneri dei motori di ricerca conoscere quali siano ralmente questi valori. Per tale motivo, i SEO si affidano ad un numero di segnali in grado di guidarli nella costruzione di una scala di valori dei diversi link. Oltre ai segnali dei link poco misurabili viste precedentemente, venogno considdereate le seugenti metriche: 
+
+## Posizionamento della pagina per termini di ricerca pertinenti
++ uno dei metodi migliori per determinare il valore che un motore di ricerca attribuisce ad una pagina è di eseguire una ricerca per alcune delle parole e delle frasi chaive target per la pagina
+
+## Google PageRank
++ Nonostante le critiche ricevute nel corso degli anni per la sua mancanza di precisione e di freschezza (Google aggiorna il PageRank visibile nella propria barra degli strumenti ogni 3–5 mesi e a volte la manipola in maniera intenzionale per scoraggiare fenomeni di spam e di eccesso di analisi), é ancora utile guardare al numero riportato. 
++ pagine con un elevato PageRank tendono a trasferire maggiroe link juice rispetto alle pagine con PageRank minore o assente. 
++ si faccia a,ttenzione alle pagine che non espongono nessun PageRank (contrassegnate dalla barra grigia) in quanto potrebbe trattarsi di pagine ad alto valore che non hanno semplicemente ricevuto PageRank prima dall'ultimo aggiornamento del PR visibile sulla barra degli strumenti
+
+## SEOmoz mozRank
++mozRank (mr) indica la popolarità di una pagina nel web Pagine con elevato mr (popolari) tendono a posizionarsi meglio. 
++ maggiore è il numero di link ottenuti da una pagina (backlink), maggiore sarà la sua popolarità.
++ link derivanti da pagine importanti (quali cnn.com o irs.gov) aumentano la popolarità di una pagina e di conseguenza anche il suo mazRank, più di quanto lo facciano siti meno popolari
+
++ il mr di una pagina può essere migliorato ottenendo numerosi link da pagine mediamente popolari o un numero ristretto di link da pagine molto popolari 
+
+## Domain Authority di SEOmoz
++ La domain autority (DA) è una metrica indipendente dalle ricerche che indica con che probabilità un dominio si posizionerà per ogni data ricerca. 
++ È calcolata analizzando il grafo del dominio su internet comparandolo alla decine di migliaia di ricerche su google 
+
+## Blogsearch di Google 
++ La Blog Search di Google è l'unico sito controllato dalla società di Moiuntain View 
