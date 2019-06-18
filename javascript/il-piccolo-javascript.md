@@ -209,8 +209,32 @@ che ritornerà:
 <b> JIT compilation (Just In Time) </b> - Javascript viene compilato dal motore alcuni microsecondi prima dell'esecuzione
 Per il momento però ci concentriamo sull'<b>esecuzione del codice</b>
 
+### Consideriamo questo esempio:
+```js
+var num = 2;
 
-![Image description](https://docs.google.com/drawings/d/e/2PACX-1vTleL4IMZU6jB3Qk6EVK99ON3jbq9likyQ-00gsWOF8NWbQ5Dde0erc6jMRwVnUAy-7r2jbuLDbosLm/pub?w=960&h=720
-)
+function pow(num) {
+    return num * num;
+}
+
+```
+
++ il motore js inizia ad eseguire il codice 
++ ogni istruzione viene "spezzettata" e memorizzata in una serie di box virtuali (STEP 1)
+    + <b>Globabl memory</b>(memoria globale) - mantiene in memoria:
+        + <b>variabili globali</b>
+        + <b>dichiarazione delle funzioni</b>
+
+
+### Cosa succede se chiamo la funzione pow ed ordino al motore di eseguirla?
+
+```js
+pow(num);
+```
+L'<b>esecuzione di una funzione js </b> innesca due ulteriori step:
+1. <b>viene creato un Global Execution Context</b>
+2. <b>la funzione pow viene spinta in una Call Stack</b>
+
+![motori js](https://docs.google.com/drawings/d/e/2PACX-1vTleL4IMZU6jB3Qk6EVK99ON3jbq9likyQ-00gsWOF8NWbQ5Dde0erc6jMRwVnUAy-7r2jbuLDbosLm/pub?w=960&h=720)   
 
 
