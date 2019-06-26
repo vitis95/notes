@@ -238,3 +238,97 @@ L'<b>esecuzione di una funzione js </b> innesca due ulteriori step:
 ![motori js](https://docs.google.com/drawings/d/e/2PACX-1vTleL4IMZU6jB3Qk6EVK99ON3jbq9likyQ-00gsWOF8NWbQ5Dde0erc6jMRwVnUAy-7r2jbuLDbosLm/pub?w=960&h=720)   
 
 
+--> ABBIAMO 2 NUOVI COMPONENTI DEL MOTORE JAVASCRIPT: <b>Global Execution
+Context e Call Stack!</b>
+
+## GLOBAL EXECUTION CONTEXT E CALL STACK
+<b>Call Stack</b> - è uno STACK, ciò significa che il motore può aggiungere elementi solo dall'alto 
+    + È il principale controllore dell'esecuzione del codice: ogni funciton call viene spinta all'interno del Call Stack 
+    + Il Call Stack quindi è un registro temporaneo delle funzioni in attesa di essere eseguite 
+    + Il Call Stack è un conceetto importante ed è il pilastro per capire che Javascript è ASINCRONO ma non bloccante
+In javascript possiamo fare <b> una cosa per volta </b>    
+    + Ogni funzione messa nel Call Stack deve aspettare il suo turno per essere eseguita
+
+<b> Global Execution Context </b> - è un ambiente anch'esso globale, dove vengono memorizzate le informazioni relative alla funzione corrente. 
+    + Tiene memoria del fatto che pow è una funzione e che da pow viene ritornato un valore 
+
+### Cosa succede se la funzione gestisce altre variabili?
+``` js
+var num = 2;
+function pow(num) {
+    var fixed = 89;
+    return num * num;
+}
+
+pow(2);
+```
+
+--> Il motore creerà un <b> Local Execution Context </b> per contentere fixed 
+    + Nel grafico il rettangolo bianco verrà popolato da Local Execution Context
+
+## RECAP SCHEMA DI FUNZIONAMENTO DI JS NEL BROWSER 
+Quando eseguiamo una fuzione js il motore:
+1. Popola la memoria globale (Global Memory) con variabili e dichiarazioni di funzioni
+2. Crea un Global Execution Context dove vengono salvate le informazioni relative alla funzione corrente
+3. La funzione da eseguire viene "spinta" nel Call Stack
+
++ Js è <b> single-threaded</b>
++ Esiste un solo <b> Call Stack </b> a disposizione del motore 
++ Quindi js può eseguire una sola funzione per volta 
+
+### MANCA UN TASSELLO
+Se aggiungessimo al nostro programma una nuova funzione che richiede molto tempo per terminare? bloccherebbe tutto il programma e quindi l'utente si ritroverebbe con la pagina bloccata senza possibilità di cliccare e scrollare - NON FUNZIONA COSI NELLA PROSSIMA SEZIONE SPIEGO IL TASSELLO CHE RISOLVE QUESTO PROBLEMA 
+
+#### TIP
+JavaScript è single-threaded ed i motori JavaScript hanno un singolo Call Stack a disposizione. I moderni browser però aggirano questa limitazione lanciando diversi thread di
+esecuzione, ognuno con il proprio Call Stack. Questo fa pensare che le limitazioni del
+linguaggio possano essere superate con questo “trucco” ma in realtà JavaScript rimane
+asincrono e si comporta sempre come se ci fosse un unico Call Stack.
+
+
+***
+
+
+# JAVASCRIPT ASINCRONO, CALLBACK QUEUE ED EVENT LOOP
+
+<b> Chiamata Sincrona </b> - il programma non può andare avanti fino a che non arriva la risposta dal server: la pagina web è bloccata fino all'arrivo della risposta
+<b> Chiamata Asincrona </b> - una volta lanciata la funzione il programma può procedere. Quando poi arriverà la risposta del server verrà richiamata una funzione js nella pagina per gestirla 
+
+In JS le funzione asincrone vengono fisicamente eliminate dal Call Stack e gestite da un "aiutante" che è quasi sempre il browser che mette a disposizione una serie di funzioni utili per gestire le operazioni verso il mondo esterno
+
+#### REST API
+Le REST API sono dei servizi web che espongono informazioni e dati. Questi dati possono
+essere recuperati attraverso la rete con richieste HTTP. Un esempio di REST API è
+jsonplaceholder.typicode.com⁶.
+
+
+setTimeout per esempio non è un metoo nativo del linguaggio Js: fa parte delle browser API
+
+``` js
+setTimeout(callback, milliseconti)
+
+setTimeout(callback, 1000)
+
+function callback(){
+    console.log('hello timer!')
+}
+```
+
+#### BROWSER API
+I produttori dei vari browser mettono a disposizione una serie di funzioni che un qualsiasi
+web developer può sfruttare nel proprio codice. Esempi di browser API sono setTimeout,
+setInterval, console.log. Un elenco completo e sempre aggiornato è disponibile su Web
+APIs⁷.
+
+--> IL MOTORE JS DELEGA AL BROWSER
+Però la parte del motore che si occupa di gestire le funzioni in esecuzione è il Call Stack.
+Quindi la funzione di callback dovrà finire in qualche modo di nuovo nel Call Stack per essere eeguita. 
+Il Call Stack però può gestire <b> 1 sola funzione per volta </b>.
+Requisito fondamentale per completare le nostre callback è che il <b> Call Back </b> sia vuoto e pronto per eseguire i nuovi lavori
+
+
+#### CALLBACK 
+Il termine callback in JavaScript non è niente di speciale. Si tratta di una convenzione per
+indicare una funzione che verrà chiamata dopo un’operazione asincrona. Le funzioni di
+callback non sono mai da sole. Generalmente vengono passate come parametro ad altre
+funzioni asincrone, come in setTimeout: setTimeout(callback, millisecondi).
