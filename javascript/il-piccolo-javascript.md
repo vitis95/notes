@@ -351,3 +351,95 @@ Mentre Callback Queue ed Event Loop sono alla base di JavaScript asincrono.
 - <b> Callback </b> - funzioni che contengono operazioni asincrone e che vengono passate come parametro ad un'altra funzione. 
 
 
+--> negli anni si è diffuso un modo di programmare basato sulle callback che però è sfuggito di mano.
+Il problema con le callback sorge nel momento in cui una funzione asincrona lancia una callback. È molto probabile che questa callback dovrà manipolare altri dati, forse anch'essi asincroni. Presto avremo quindi bisogno di chiamare una callback all'interno della callback e via dicendo. --> <b> Callback Hell </b>
+
+Una soluazione a questo problema sono le promise. 
+
+## PROMISES E MICROTASK QUEUE
+
+La <b> Promise </b> è un'aggiunta al linguaggio Js introdotta con ES6 nel 2015.
+SCOPO: alleviare la sindrome da callback hell rendendo il codice asincrono più chiaro e leggibile. 
+È un <b> oggetto che rappresenta una operazione asincrona</b>  
+    Una sorta di segnaposto per una operazione che accadrà nel futuro. 
+Per creare una promise è sufficiente chiamare new promise, fornendo come parametro una callback.
+La callback è una funzione che può prendere resolve e reject come parametri. resolve e reject sono a loro volta delle funzioni che segnaleranno la riuscita o meno dell'operazione asincrona. 
+
+``` js
+const myPromise = newPromise(function(resolve, reject){
+    setTimeout(function(){
+        resolve()
+    }, 5000)
+})
+```
+
+NB new NomeFunzione significa: costruisci un nuovo oggetto del tipo NomeFunzione 
+
+La <b>callback</b> in questo caso è una funzone che chiama <b>resolve</b> dopo 5 secondi (notare l'uso di setTimeout per creare l'operazione asincrona). <b> resolve e reject </b> vengono passati entrambi come parametri alla callback e rappresentano il segnale utilizzato dalla Promise per comunicare all'esterno se l'operazione asincrona sia andata o meno a buon fine. Possiamo ritornare <b> resolve </b> in caso di successo, che prende opzionalmente come argomento un dato, da ritornare all'esterno: 
+
+``` js
+const myPromise = new Promise(function(resolve, reject){
+    setTimeout(function()
+        resolve([ {name: 'Chris'} ])
+    }, 5000)
+})
+```
+
+Creata la <b> Promise è possibile consumarla agganciando then: </b>
+
+``` js
+myPromise.then((data) => console.log(data))
+```
+
+che ritornerà dopo 5 secondi:
+``` js
+[ {name: 'Chris'} ]
+```
+Durante questi 5 secondi la Promise rimarrà in stato <b> pending: </b>
+``` js
+Promise {<pending}
+```
+che è lo stato di default per tutte le Promise
+
+
+RECAP 
++ Ogni nuova Promise riceve una <b> callback </b> come parametro
++ Quest'ultima prende a usa volta due parametri, resolve e reject
++ Poco prima abbiamo visto che durante l'esecuzione del codice il motore prende in carico le callback.
++ Queste callback sono state già gestite dalle API del browser e sono in attesa nella <b> Callback Queue </b>, pronte per essere spostate nel <b> Call Stack </b>.
+
+Questo potrebbe sembrare una regola generale. Ma prova ad eseguire questo codice: 
+``` js
+console.log("Start");
+
+setTimeout(() => {
+    console.log("Log me!");
+}, 0);
+
+const myPromise = new Promise(function(resolve, reject) {
+    resolve([{ name: "Chris" }]);
+});
+
+myPromise.then(data => console.log(data));
+
+console.log("End");
+```
+
+Quale potrebbe essere l'output? La Promise non ha <b> nessun ritardo </b> e quindi dovrebbe ritornare insieme a Log me!. Ma in realtà avremo: 
+
+``` js
+Start
+End
+[ { name: 'Chris' } ]
+Log me!
+```
+
+Le call sincrone a console.log vengono subito eseguite come ci saremmo aspettati. Ma per quale
+motivo setTimeout viene eseguito <b>dopo la Promise</b> e non prima? Il motivo è da ricercare nel modo
+in cui le Promise vengono gestite. Quando nel 2015 sono state introdotte nel linguaggio il comitato
+ECMAScript ha deciso che avrebbero avuto <b>precedenza sulle altre operazioni asincrone.</b>
+
+Le <b>callback</b> passate ad una <b>Promise</b> infatti <b>non vengono gestite dalla Callback Queue</b> bensì da
+una coda diversa, denominata <b>Microtask Queue</b>. La <b>Microtask Queue</b> si aggiunge al nostro disegno
+mentale del motore JavaScript ed è fondamentale avere chiaro questo fatto: la <b>Microtask Queue</b> ha
+precedenza sulla <b>Callback Queue</b>.
