@@ -1,4 +1,4 @@
-# Il piccolo libro di Javscript
+# IL PICCOLO LIBRO DI JAVASCRIPT
 
 <b> Single Page Applicazion </b> 
 + App Web costruite con Js 
@@ -332,3 +332,22 @@ Il termine callback in JavaScript non è niente di speciale. Si tratta di una co
 indicare una funzione che verrà chiamata dopo un’operazione asincrona. Le funzioni di
 callback non sono mai da sole. Generalmente vengono passate come parametro ad altre
 funzioni asincrone, come in setTimeout: setTimeout(callback, millisecondi).
+
+COME JS RISOLVE QUESTO PROBLEMA QUINDI?
+Le callback asincrone finiscono all'interno di una CODA denominata <b> Callback Queue </b> 
+    SCOPO: contenere le callback che attendono di essere eseguite 
+Un altro componente denominato <b> Event Loop </b> è impegnato a controllare che il <b> Call Stack </b> sia vuoto e pronto per ricevere nuove funzioni. 
+
+Non appena il Call Stack è libero l’Event Loop spinge dentro la prima callback in coda. Ed ecco
+che le nostre funzioni asincrone spuntano fuori dopo un tot di secondi.
+
+Global Memory, Execution Context e Call Stack spiegano il funzionamento sincrono di JavaScript.
+Mentre Callback Queue ed Event Loop sono alla base di JavaScript asincrono.
+
+## CALLBACK HELL E PROMISES 
+
+#### RECAP:
+- Quando lanciamo una funzione asincorna il motore passa il compito al browser. Dopo la lavorazione le funzioni di callback vengono prima spsotate nella <b> Callback Queue </b> e <b> l'Event Loop </b> si occupa di spingerle nel <b> Call Stack </b> quando quest'utlimo è libero da qualsiasi altra funzione. 
+- <b> Callback </b> - funzioni che contengono operazioni asincrone e che vengono passate come parametro ad un'altra funzione. 
+
+
