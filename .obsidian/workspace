@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "9dde079f0f873ff2",
+    "type": "split",
+    "children": [
+      {
+        "id": "17c3d9af1cb33155",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac459a2b25ff4ad0",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbe9a11003b12a28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84adf2cf3180dbcd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c7d333b024e8796f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa55995458e12518",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f589a1017f3e6b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "744fe6e69dde348b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "17c3d9af1cb33155",
+  "lastOpenFiles": [
+    "hybris/impex/info.md",
+    "UXUI/1. Introduzione.md",
+    "visaluStudioCode/shortcuts.md",
+    "javascript/jsAdeventure/1. intro.md",
+    "javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
+    "agile/slideTrotta/intro.md",
+    "agile/slideTrotta/day-2.md",
+    "agile/JAVA/info.md"
+  ]
+}
