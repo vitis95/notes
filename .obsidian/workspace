@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "17c3d9af1cb33155",
+        "id": "92b0a5181f003e13",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "coding/be/hybris/impex/info.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/be/hybris/impex/info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,16 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "17c3d9af1cb33155",
+  "active": "92b0a5181f003e13",
   "lastOpenFiles": [
+    "Inbox/Parla con Walter.md",
     "coding/be/hybris/impex/info.md",
+    "project_management/agile/JAVA/info.md",
+    "Untitled.md",
     "hybris/impex/info.md",
     "UXUI/1. Introduzione.md",
     "visaluStudioCode/shortcuts.md",
     "javascript/jsAdeventure/1. intro.md",
     "javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
-    "agile/slideTrotta/intro.md",
-    "agile/slideTrotta/day-2.md",
-    "agile/JAVA/info.md"
+    "agile/slideTrotta/intro.md"
   ]
 }
