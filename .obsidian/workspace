@@ -7,8 +7,11 @@
         "id": "92b0a5181f003e13",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "coding/wordpress/get_started/avvio_server.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "coding/wordpress/get_started/avvio_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,10 +88,10 @@
   },
   "active": "92b0a5181f003e13",
   "lastOpenFiles": [
+    "Untitled.md",
     "Inbox/Parla con Walter.md",
     "coding/be/hybris/impex/info.md",
     "project_management/agile/JAVA/info.md",
-    "Untitled.md",
     "hybris/impex/info.md",
     "UXUI/1. Introduzione.md",
     "visaluStudioCode/shortcuts.md",

@@ -9,3 +9,11 @@ function quadrato15numeri(){
 }
 
 console.log(quadrato15numeri());
+
+
+
+var persona = {
+    nome: "Ivan"
+};
+
+console.log(persona.nome);
