@@ -1,0 +1,1 @@
+- velocità x2 per la parte in cui dici di seguirti e mettere mi piace

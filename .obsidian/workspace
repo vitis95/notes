@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "editing/video/tiktok/config.md",
+            "file": "editing/video/tiktok/idee.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "editing/video/tiktok/config.md",
+                "file": "editing/video/tiktok/idee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "92b0a5181f003e13",
   "lastOpenFiles": [
+    "Senza nome.md",
     "editing/video/tiktok/config.md",
     "Untitled.md",
     "coding/wordpress/get_started/avvio_server.md",
@@ -96,7 +97,6 @@
     "project_management/agile/JAVA/info.md",
     "hybris/impex/info.md",
     "UXUI/1. Introduzione.md",
-    "visaluStudioCode/shortcuts.md",
-    "javascript/jsAdeventure/1. intro.md"
+    "visaluStudioCode/shortcuts.md"
   ]
 }
