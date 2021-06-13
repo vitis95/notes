@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "92b0a5181f003e13",
+        "id": "88009b94430a8f85",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "coding/wordpress/get_started/avvio_server.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/wordpress/get_started/avvio_server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "92b0a5181f003e13",
+  "active": "88009b94430a8f85",
   "lastOpenFiles": [
     "Untitled.md",
     "Inbox/Parla con Walter.md",
