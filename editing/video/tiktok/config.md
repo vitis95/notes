@@ -1,0 +1,2 @@
+- importa i media
+- file > new > sequence 
