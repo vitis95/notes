@@ -1,4 +1,5 @@
 # Configurazione Premiere Pro per video TikTok
+## Impostazioni sequenza
 - importa i media
 - file > new > sequence (oppure è[cmd + N])
 - digital SLR > 1080p > DSLR 1080p24

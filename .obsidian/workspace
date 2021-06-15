@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "editing/video/tiktok/config.md",
+            "file": "editing/video/premiere_pro/effetti/vol-musica+voce.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "editing/video/tiktok/config.md",
+                "file": "editing/video/premiere_pro/effetti/vol-musica+voce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,9 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "editing/video/premiere_pro/effetti/Senza nome.md",
+    "Senza nome.md",
+    "editing/video/youtube/config.md",
     "editing/video/tiktok/config.md",
     "editing/video/tiktok/idee.md"
   ]

@@ -1,0 +1,11 @@
+- Clicco sulla traccia
+- mi posiziono qualche secondo prima 
+- vado su controllo effetti > livello
+- aggiungo un fotogramma
+- porto il cursore all'inizio della voce
+- aggiungo fotogramma
+- abbasso il volume della traccia
+- porto il cursore alla fine della voce parlante
+- aggiungo fotogramma
+- porti il cursore qualche secondo dopo la voce
+- aggiungi fotogramma e riporta il volume a 0
