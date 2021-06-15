@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "9dde079f0f873ff2",
+    "id": "71be241400febf2a",
     "type": "split",
     "children": [
       {
-        "id": "92b0a5181f003e13",
+        "id": "5aca3704b18071c4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "editing/video/tiktok/idee.md",
+            "file": "editing/video/tiktok/config.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ac459a2b25ff4ad0",
+    "id": "1423ee7e537015d1",
     "type": "split",
     "children": [
       {
-        "id": "dbe9a11003b12a28",
+        "id": "db6032d412040840",
         "type": "tabs",
         "children": [
           {
-            "id": "84adf2cf3180dbcd",
+            "id": "875441a0239b4248",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "c7d333b024e8796f",
+            "id": "45a69c26bdc2c06a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,20 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "fa55995458e12518",
+    "id": "71de0b7dc566af44",
     "type": "split",
     "children": [
       {
-        "id": "5f589a1017f3e6b6",
+        "id": "0128c314576a2a74",
         "type": "tabs",
         "children": [
           {
-            "id": "744fe6e69dde348b",
+            "id": "82c116167e366be9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "editing/video/tiktok/idee.md",
+                "file": "editing/video/tiktok/config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "92b0a5181f003e13",
+  "active": "5aca3704b18071c4",
   "lastOpenFiles": [
-    "Senza nome.md",
     "editing/video/tiktok/config.md",
-    "Untitled.md",
-    "coding/wordpress/get_started/avvio_server.md",
-    "Inbox/Parla con Walter.md",
-    "coding/be/hybris/impex/info.md",
-    "project_management/agile/JAVA/info.md",
-    "hybris/impex/info.md",
-    "UXUI/1. Introduzione.md",
-    "visaluStudioCode/shortcuts.md"
+    "editing/video/tiktok/idee.md"
   ]
 }
