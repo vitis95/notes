@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "editing/video/premiere_pro/effetti/vol-musica+voce.md",
+            "file": "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316
   },
   "right": {
     "id": "71de0b7dc566af44",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "editing/video/premiere_pro/effetti/vol-musica+voce.md",
+                "file": "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,15 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
-    "editing/video/premiere_pro/effetti/Senza nome.md",
-    "Senza nome.md",
-    "editing/video/youtube/config.md",
-    "editing/video/tiktok/config.md",
-    "editing/video/tiktok/idee.md"
+    "Untitled.md",
+    "3.3 Pagina-destinazione e CRO.md",
+    "learnn/google_ads/2. le-fondamenta/2.4 Ad Rank.md",
+    "learnn/google_ads/2. le-fondamenta/2.3 Quando investire su Google Ads.md",
+    "Inbox/Untitled.png",
+    "Inbox/Pasted image 20210615140338.png",
+    "learnn/google_ads/2. le-fondamenta/Untitled.md",
+    "learnn/google_ads/2. le-fondamenta/2.1 def-google-ads.md",
+    "learnn/google_ads/2. le-fondamenta/2.2 SEM e tipologie campagne.md",
+    "learnn/google_ads/2-def-google-ads.md"
   ]
 }
