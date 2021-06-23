@@ -10,3 +10,21 @@ Gruppo fb - https://m.facebook.com/groups/1162454953883711/
 ![[IMG_0444_Original.jpg]]
 ![[IMG-20190111-WA0028_Original.jpg]]
 ![[IMG-20190204-WA0014_Original.jpg]]
+
+
+
+
+Ti spiego io attualmente sono in smart working e ho deciso di lasciare Milano per qualche mese, per questo nel frattempo subaffitto la mia stanza, questo vuol dire che il contratto con il proprietario della casa resta a nome mio e io te faremmo un contratto che non registriamo, è giusto per avere nero su bianco le informazioni che concordiamo.
+
+Attualmente la casa è abitata da un ragazzo neo laureato in tirocinio, è del 96 - https://www.facebook.com/stefano.onorato1
+L'altra stanza invece è occupata da un ragazzo che sta uscendo dal contratto proprio in questo periodo, il sostituto arriva a Luglio e a Settembre andrà in Erasmus per cui anche lui subaffitterà la stanza. 
+(questo sostituto quindi in teoria tu non lo incrocerai mai). Il ragazzo che subaffitta invece anche io non lo conosco lo abbiamo trovato settimana scorsa e abbiamo fatto una videochiamata, magari proviamo a combinare una videochiamata se volete consocervi poi ci organizziamo. 
+
+
+Se ho tralasciato qualche informazioni fammi domande puntuali senza problemi. 
+Ti chiedo due righe su di te, da dove vieni, quanti anni hai, come mai sei a Milano. 
+
+Se sei daccordo alla fine di questo scambio di informazioni possiamo organizzare una videocall veloce tra me e te se vuoi maggiori informazioni e poi aggiungere Stefano ed eventualmente l'altro coinquilino per avviare una conoscenza. 
+
+
+Sisi la caparra facciamo un mese di affitto quindi 450 e te la ridò quando lasci la stanza.
