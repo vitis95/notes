@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Inbox/subaffitto.md",
+            "file": "1 - Inbox/subaffitto.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/subaffitto.md",
+                "file": "1 - Inbox/subaffitto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "1 - Inbox/subaffitto.md",
+    "1 - Inbox/esempio_asta.png",
+    "1 - Inbox/PHOTO-2020-03-03-18-56-18 1.jpg",
     "Untitled.md",
     "3.3 Pagina-destinazione e CRO.md",
     "learnn/google_ads/2. le-fondamenta/2.4 Ad Rank.md",
     "learnn/google_ads/2. le-fondamenta/2.3 Quando investire su Google Ads.md",
     "Inbox/Untitled.png",
     "Inbox/Pasted image 20210615140338.png",
-    "learnn/google_ads/2. le-fondamenta/Untitled.md",
-    "learnn/google_ads/2. le-fondamenta/2.1 def-google-ads.md",
-    "learnn/google_ads/2. le-fondamenta/2.2 SEM e tipologie campagne.md",
-    "learnn/google_ads/2-def-google-ads.md"
+    "learnn/google_ads/2. le-fondamenta/Untitled.md"
   ]
 }
