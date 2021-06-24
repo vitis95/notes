@@ -7,11 +7,8 @@
         "id": "5aca3704b18071c4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Inbox/subaffitto.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/subaffitto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
