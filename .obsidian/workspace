@@ -7,8 +7,11 @@
         "id": "5aca3704b18071c4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316
+    "width": 126
   },
   "right": {
     "id": "71de0b7dc566af44",
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
+    "coding/fullstack/javascript/jsAdeventure/1. intro.md",
+    "1 - Inbox/subaffitto.md",
+    "1 - Inbox/Parla con Walter.md",
     "Inbox/subaffitto.md",
     "Untitled.md",
     "3.3 Pagina-destinazione e CRO.md",
     "learnn/google_ads/2. le-fondamenta/2.4 Ad Rank.md",
     "learnn/google_ads/2. le-fondamenta/2.3 Quando investire su Google Ads.md",
-    "Inbox/Untitled.png",
-    "Inbox/Pasted image 20210615140338.png",
-    "learnn/google_ads/2. le-fondamenta/Untitled.md",
-    "learnn/google_ads/2. le-fondamenta/2.1 def-google-ads.md",
-    "learnn/google_ads/2. le-fondamenta/2.2 SEM e tipologie campagne.md"
+    "Inbox/Untitled.png"
   ]
 }
