@@ -2,17 +2,24 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	    <title>Index 2</title>
     </head>
     <body>
         <h1> Index 2 test js</h1>
-
-        <p>Inserisci la tua età: <input type="text" id="myText" value="18"> <button onclick="inputEtà()">Ins</button></p>
-        <span>La mia età è: </span> <div id="età"></div>
-
-        <div><p>La differenza delle nostre età è: </p> <p id="diffEtà"></p></div>
-
-
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <p>Inserisci la tua età: </p><p><input type="text" id="myText" value="18"></p> <button onclick="inputEtà()">Ins</button>
+              </div>
+              <div class="col">
+                <p>La mia età è: </p> <div id="età"></div>
+              </div>
+              <div class="col">
+                <div><p>La differenza delle nostre età è: </p> <p id="diffEtà"></p></div>
+              </div>
+            </div>
+          </div>
       
         
 
