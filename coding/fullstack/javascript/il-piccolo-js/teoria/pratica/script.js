@@ -7,10 +7,23 @@ function nameFunction1() {
 
 nameFunction1();
 
+
+
+function saluta(){
+    alert("Ciao!");
+}
+saluta();
+
+function addizione(x, y){
+    return x + y;
+}
+addizione(5, 6);
+
 // Anonymous Function
 var hello = function() {
     return "Ciao!";
 }
+
 
 // Metodo 
 var primoOggetto = {
