@@ -28,3 +28,14 @@ Se sei daccordo alla fine di questo scambio di informazioni possiamo organizzare
 
 
 Sisi la caparra facciamo un mese di affitto quindi 450 e te la ridò quando lasci la stanza.
+
+
+***
+
+Call con Olga 
+
+- periodo agosto > dicembre compresi
+- pagamento di una cauzione di 405 
+- contratto non registrato
+- 450 tutto compreso oppure 405 + utenze che paga lei ci deve pensare
+- 

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
-            "mode": "preview"
+            "file": "1 - Inbox/subaffitto.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 126
+    "width": 406
   },
   "right": {
     "id": "71de0b7dc566af44",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
+                "file": "1 - Inbox/subaffitto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "1 - Inbox/subaffitto.md",
     "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
     "coding/fullstack/javascript/jsAdeventure/1. intro.md",
-    "1 - Inbox/subaffitto.md",
     "1 - Inbox/Parla con Walter.md",
     "Inbox/subaffitto.md",
     "Untitled.md",
