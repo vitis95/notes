@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "finance/miei_investimenti.md",
+            "file": "finance/10-azioni-per-principianti.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "finance/miei_investimenti.md",
+                "file": "finance/10-azioni-per-principianti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "finance/10-azioni-per-principianti.md",
+    "finance/investire-in-azioni-basi.md",
+    "finance/dove-comprare-azioni.md",
     "Senza nome.md",
-    "1 - Inbox/subaffitto.md",
-    "coding/fullstack/javascript/il-piccolo-js/teoria/il-piccolo-javascript.md",
-    "coding/fullstack/javascript/jsAdeventure/1. intro.md",
-    "1 - Inbox/Parla con Walter.md",
-    "Inbox/subaffitto.md",
-    "Untitled.md",
-    "3.3 Pagina-destinazione e CRO.md",
-    "learnn/google_ads/2. le-fondamenta/2.4 Ad Rank.md",
-    "learnn/google_ads/2. le-fondamenta/2.3 Quando investire su Google Ads.md"
+    "finance/miei-investimenti.md",
+    "finance/robo.md",
+    "finance/moneyfarm.md",
+    "finance/tinaba.md",
+    "finance/miei_investimenti.md",
+    "1 - Inbox/subaffitto.md"
   ]
 }

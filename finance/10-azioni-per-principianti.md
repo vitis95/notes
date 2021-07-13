@@ -1,0 +1,18 @@
+- Google 
+	- modello di business facile
+	- vive di pubblicità quasi del tutto
+	- azienda consolidata di 20 anni di storia circa
+	- costa più di 1000 dollari
+- Starbucks 
+- Apple
+- Facebook
+- Disney 
+	- guadagna anche da merchsdinsing, parchi a tema ecc. 
+- at&t 
+	- Pietro Michelangeli dice che è sicuro
+	- primo servitore di servizi telefoninici in America (tipo TIM)
+	- da dei dividendi
+- Johnson & Johnson
+-  Boeing
+-  Holding di buffet
+-  McDonalds

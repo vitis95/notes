@@ -1,3 +1,10 @@
+##### Due tipi di costo: 
+- Costo di Gestione
+- Costo dei fondi sottostanti
+
+
+Ha il sostituto d'imposta. 
+
 Modo semplice ed efficace per risparmiare ed investire senza dover stare dietro agli investimenti. 
 
 Tinaba si appoggia a Banca Profilo. 
