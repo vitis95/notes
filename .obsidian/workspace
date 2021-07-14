@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "finance/azioni-info-da-guardare.md",
+            "file": "Cosa sono gli ETF?.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406
+    "width": 257
   },
   "right": {
     "id": "71de0b7dc566af44",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "finance/azioni-info-da-guardare.md",
+                "file": "Cosa sono gli ETF?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,14 +89,14 @@
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
     "Senza nome.md",
+    "finance/investiamo/Che cosa sono e come funzionano i fondi di investimento?.md",
+    "finance/dove-comprare-azioni.md",
     "finance/10-azioni-per-principianti.md",
     "finance/investire-in-azioni-basi.md",
-    "finance/dove-comprare-azioni.md",
     "finance/miei-investimenti.md",
     "finance/robo.md",
     "finance/moneyfarm.md",
     "finance/tinaba.md",
-    "finance/miei_investimenti.md",
-    "1 - Inbox/subaffitto.md"
+    "finance/miei_investimenti.md"
   ]
 }

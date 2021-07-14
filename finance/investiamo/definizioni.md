@@ -1,0 +1,3 @@
+**MEME STOCKS** - sono azioni di compagnie che presentano elevati volumi di scambio, ovvero che tante persone le comprano e le vendono. Il punto è che questi volumi non derivano da investitori istituzionali ma da investitori retail. Tutta l'attenzione attorno a loro deriva dai social network. Per esempio il caso di Gamestop. 
+
+**AUMENTO DI CAPITALE** - emettere nuove azioni qunidi poter raccogliere capitale, con l'ottica di espandere il proprio business e o cercare di salvarlo. 
