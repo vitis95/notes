@@ -7,10 +7,9 @@
         "id": "5aca3704b18071c4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
-            "mode": "preview"
+            "file": "1 - Inbox/img/learnn/google-ads/Pasted image 20210728135225.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
+                "file": "1 - Inbox/img/learnn/google-ads/Pasted image 20210728135225.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +87,7 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
+    "Pasted image 20210728135225.png",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.10 Come calcolare l'offerta.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.9 Le estensioni.md",
@@ -96,7 +96,6 @@
     "learnn/google_ads/4 . Come costruire una campagna Search/4.6 Struttura dell'account.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.5 Come definire il budget.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.4 Come fare Keyword Research.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.3 Cosa sono le corrispondenze.md"
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md"
   ]
 }
