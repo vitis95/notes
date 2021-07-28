@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
-            "mode": "source"
+            "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
+                "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "5aca3704b18071c4",
   "lastOpenFiles": [
-    "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
-    "learnn/google_ads/3. Costruire una strategia/3.4 Le metriche fondamentali.md",
-    "learnn/google_ads/3. Costruire una strategia/3.3 Pagina-destinazione e CRO.md",
-    "learnn/google_ads/3. Costruire una strategia/3.2 google-ads_vs_fb-ads.md",
-    "learnn/google_ads/3. Costruire una strategia/3.1 5 Pilastri della strategia.md",
-    "Pasted image 20210713220843.png",
-    "Pasted image 20210713222505.png",
-    "Cosa sono gli ETF?.md",
-    "Senza nome.md",
-    "finance/investiamo/Che cosa sono e come funzionano i fondi di investimento?.md"
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.10 Come calcolare l'offerta.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.9 Le estensioni.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.8 Come scrivere un annuncio.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.7 Tipologie di annunci.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.6 Struttura dell'account.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.5 Come definire il budget.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.4 Come fare Keyword Research.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md",
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.3 Cosa sono le corrispondenze.md"
   ]
 }
