@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coding/fullstack/javascript/promise.md",
+            "file": "coding/studio_code/shortcuts.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/fullstack/javascript/promise.md",
+                "file": "coding/studio_code/shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
+    "coding/studio_code/shortcuts.md",
+    "coding/fullstack/javascript/promise.md",
     "Senza nome.md",
     "coding/fullstack/javascript/bind_call_apply.md",
     "coding/fullstack/javascript/closures.md",
@@ -95,8 +97,6 @@
     "coding/fullstack/javascript/reminder/getTypeCondizionatoPayload.md",
     "coding/fullstack/javascript/reminder/esempioCiclo.md",
     "coding/fullstack/javascript/reminder/creareMap.md",
-    "coding/fullstack/javascript/setInterval&setTimeout.md",
-    "coding/fullstack/javascript/primitives_vs_objects.md",
-    "coding/fullstack/javascript/lodashFunctions.md"
+    "coding/fullstack/javascript/setInterval&setTimeout.md"
   ]
 }
