@@ -1,0 +1,1 @@
+Digital, Marketing e Management sono le tre aree del mio bagaglia culturale

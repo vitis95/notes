@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coding/studio_code/shortcuts.md",
+            "file": "work/note.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/studio_code/shortcuts.md",
+                "file": "work/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
+    "Senza nome.md",
     "coding/studio_code/shortcuts.md",
     "coding/fullstack/javascript/promise.md",
-    "Senza nome.md",
     "coding/fullstack/javascript/bind_call_apply.md",
     "coding/fullstack/javascript/closures.md",
     "coding/fullstack/typescript/guidaHtml.it/1. intro.md",
