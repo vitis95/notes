@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "work/note.md",
+            "file": "health/dieta/macronutrienti.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/note.md",
+                "file": "health/dieta/macronutrienti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
+    "health/dieta/macronutrienti.md",
+    "health/dieta/calcolo fabbisogno calorico.md",
     "Senza nome.md",
+    "health/calcolo fabbisogno calorico.md",
+    "health/dieta.md",
+    "work/note.md",
     "coding/studio_code/shortcuts.md",
     "coding/fullstack/javascript/promise.md",
     "coding/fullstack/javascript/bind_call_apply.md",
-    "coding/fullstack/javascript/closures.md",
-    "coding/fullstack/typescript/guidaHtml.it/1. intro.md",
-    "coding/fullstack/javascript/reminder/getTypeCondizionatoPayload.md",
-    "coding/fullstack/javascript/reminder/esempioCiclo.md",
-    "coding/fullstack/javascript/reminder/creareMap.md",
-    "coding/fullstack/javascript/setInterval&setTimeout.md"
+    "coding/fullstack/javascript/closures.md"
   ]
 }
