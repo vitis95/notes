@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "health/gym/Scheda 1 - Day 2.md",
+            "file": "health/gym/Scheda 1 - Day 4.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "health/gym/Scheda 1 - Day 2.md",
+                "file": "health/gym/Scheda 1 - Day 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
+    "health/gym/Scheda 1 - Day 4.md",
     "health/gym/Scheda 1 - Day 2.md",
     "health/gym/Scheda 1 - 14 - 09 - 2021.md",
-    "health/gym/Scheda 1 - Day 1.md",
     "Senza nome.md",
+    "health/gym/Scheda 1 - Day 1.md",
     "health/dieta/macronutrienti.md",
     "health/dieta/calcolo fabbisogno calorico.md",
     "health/calcolo fabbisogno calorico.md",
     "health/dieta.md",
-    "work/note.md",
-    "coding/studio_code/shortcuts.md"
+    "work/note.md"
   ]
 }
