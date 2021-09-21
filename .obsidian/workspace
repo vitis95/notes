@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "finance/pianofinanziario.it/info.md",
+            "file": "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "finance/pianofinanziario.it/info.md",
+                "file": "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
     "Senza nome.md",
+    "finance/pianofinanziario.it/info.md",
     "health/gym/Scheda 1 - Day 4.md",
     "health/gym/Scheda 1 - Day 2.md",
     "health/gym/Scheda 1 - 14 - 09 - 2021.md",
@@ -96,7 +97,6 @@
     "health/dieta/macronutrienti.md",
     "health/dieta/calcolo fabbisogno calorico.md",
     "health/calcolo fabbisogno calorico.md",
-    "health/dieta.md",
-    "work/note.md"
+    "health/dieta.md"
   ]
 }
