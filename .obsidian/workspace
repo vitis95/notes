@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.12 Aggiustamento delle offerte.md",
-            "mode": "preview"
+            "file": "coding/git/gitFlow/comandi_base.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 575
+    "width": 271
   },
   "right": {
     "id": "71de0b7dc566af44",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "learnn/google_ads/4 . Come costruire una campagna Search/4.12 Aggiustamento delle offerte.md",
+                "file": "coding/git/gitFlow/comandi_base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
+    "coding/git/gitFlow/comandi_base.md",
+    "coding/git/comandi.md",
+    "coding/wordpress/template.md",
+    "coding/wordpress/get_started/avvio_server.md",
+    "coding/git/gitFlow/gitFlow.md",
+    "coding/git/gitAdventure/1. git.md",
+    "learnn/google_ads/1. intro/1.1 intro.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.12 Aggiustamento delle offerte.md",
     "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.2 Cosa sono le parole chiave.md",
-    "learnn/google_ads/3. Costruire una strategia/3.5 Recap e action points.md",
-    "health/gym/note.md",
-    "Senza nome.md",
-    "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
-    "finance/pianofinanziario.it/info.md",
-    "health/gym/Scheda 1 - Day 4.md"
+    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md"
   ]
 }
