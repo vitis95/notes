@@ -27,3 +27,7 @@ Ciao sono Ivan voglio diventare un ottimo manager di me stesso, pianificare, org
 Voglio diventare un ottimo manager di me stesso e vi faccio vedere come gestisco la mia vita.
 
 Ciao io sono Ivan e voglio diventare un bravo manager di me stesso, qui ti racconto come gestisco la mia vita, i progetti a cui sto lavorando e ciò che studio.
+ 
+***
+
+Il mio e un canale nuovo, sto realizzando e pubblicando i miei primi video quindi innanzi tutto mi dispiaccio per la bassa qualità divulgativa e tecnica in secondo luogo voglio dare alcune ancore utili a capire se sei interessa si contenuti che ho intenzione di condividere. Ho passato tanto tempo ad aspettare di acquisire le giuste competenze per poter realizzare video ed essere pronti per pubblicare , sicuramente ho imparato tempo ma ho capito che bisognare fare e iniziare per fare dei veri pas

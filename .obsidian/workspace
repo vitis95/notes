@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coding/git/gitFlow/comandi_base.md",
+            "file": "finance/invest/0000 - inbox-notes.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coding/git/gitFlow/comandi_base.md",
+                "file": "finance/invest/0000 - inbox-notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "4004bf80b37f6f65",
   "lastOpenFiles": [
-    "coding/git/gitFlow/comandi_base.md",
-    "coding/git/comandi.md",
-    "coding/wordpress/template.md",
-    "coding/wordpress/get_started/avvio_server.md",
-    "coding/git/gitFlow/gitFlow.md",
-    "coding/git/gitAdventure/1. git.md",
-    "learnn/google_ads/1. intro/1.1 intro.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.12 Aggiustamento delle offerte.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.11 Le strategie di offerta.md",
-    "learnn/google_ads/4 . Come costruire una campagna Search/4.1 Caratteristiche delle campagne su rete di ricerca.md"
+    "finance/invest/0000 - inbox-notes.md",
+    "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
+    "finance/invest/azioni-info-da-guardare.md",
+    "finance/invest/tinaba.md",
+    "finance/invest/robo.md",
+    "finance/invest/moneyfarm.md",
+    "finance/invest/miei-investimenti.md",
+    "finance/invest/investire-in-azioni-basi.md",
+    "finance/invest/dove-comprare-azioni.md",
+    "finance/invest/come-comprare-azioni.md"
   ]
 }
