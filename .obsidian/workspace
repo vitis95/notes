@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "71be241400febf2a",
+    "id": "498e000ebc057d3f",
     "type": "split",
     "children": [
       {
-        "id": "4004bf80b37f6f65",
+        "id": "346711c0b9fb3202",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "finance/invest/0000 - inbox-notes.md",
+            "file": "36-domande-per-conoscere-persone.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "finance/invest/0000 - inbox-notes.md",
+                "file": "36-domande-per-conoscere-persone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4004bf80b37f6f65",
+  "active": "346711c0b9fb3202",
   "lastOpenFiles": [
+    "36-domande-per-conoscere-persone.md",
     "finance/invest/0000 - inbox-notes.md",
     "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
     "finance/invest/azioni-info-da-guardare.md",
@@ -96,7 +97,6 @@
     "finance/invest/moneyfarm.md",
     "finance/invest/miei-investimenti.md",
     "finance/invest/investire-in-azioni-basi.md",
-    "finance/invest/dove-comprare-azioni.md",
-    "finance/invest/come-comprare-azioni.md"
+    "finance/invest/dove-comprare-azioni.md"
   ]
 }
