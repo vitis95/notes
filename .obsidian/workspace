@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "personal branding/sito-web-personale/note-idee.md",
+            "file": "work/idee cv.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal branding/sito-web-personale/note-idee.md",
+                "file": "work/idee cv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
+    "work/idee cv.md",
+    "work/note.md",
     "personal branding/sito-web-personale/note-idee.md",
     "coding/monetate/note-monetate-cro.md",
     "personal branding/Community e idee.md",
@@ -95,8 +97,6 @@
     "editing/video/tiktok/config.md",
     "editing/video/premiere_pro/effetti/vol-musica+voce.md",
     "editing/video/tiktok/idee.md",
-    "editing/video/youtube/config.md",
-    "coding/fullstack/javascript/jsAdeventure/13. functions.md",
-    "coding/fullstack/javascript/jsAdeventure/14. scope.md"
+    "editing/video/youtube/config.md"
   ]
 }
