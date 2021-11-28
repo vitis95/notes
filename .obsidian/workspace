@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "36-domande-per-conoscere-persone.md",
+            "file": "personal branding/sito-web-personale/note-idee.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "36-domande-per-conoscere-persone.md",
+                "file": "personal branding/sito-web-personale/note-idee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
-    "36-domande-per-conoscere-persone.md",
-    "finance/invest/0000 - inbox-notes.md",
+    "personal branding/sito-web-personale/note-idee.md",
+    "coding/monetate/note-monetate-cro.md",
+    "personal branding/Community e idee.md",
     "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
-    "finance/invest/azioni-info-da-guardare.md",
-    "finance/invest/tinaba.md",
-    "finance/invest/robo.md",
-    "finance/invest/moneyfarm.md",
-    "finance/invest/miei-investimenti.md",
-    "finance/invest/investire-in-azioni-basi.md",
-    "finance/invest/dove-comprare-azioni.md"
+    "editing/video/tiktok/config.md",
+    "editing/video/premiere_pro/effetti/vol-musica+voce.md",
+    "editing/video/tiktok/idee.md",
+    "editing/video/youtube/config.md",
+    "coding/fullstack/javascript/jsAdeventure/13. functions.md",
+    "coding/fullstack/javascript/jsAdeventure/14. scope.md"
   ]
 }
