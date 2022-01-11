@@ -1,1 +1,0 @@
-Multipower e verticalizzazione

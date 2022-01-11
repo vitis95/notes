@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "personal branding/sito-web-personale/note-idee.md",
+            "file": "work/idee.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal branding/sito-web-personale/note-idee.md",
+                "file": "work/idee.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,13 +88,13 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
-    "personal branding/sito-web-personale/note-idee.md",
-    "work/idee cv.md",
+    "work/idee.md",
     "work/note.md",
+    "editing/video/tiktok/config.md",
+    "personal branding/sito-web-personale/note-idee.md",
     "coding/monetate/note-monetate-cro.md",
     "personal branding/Community e idee.md",
     "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
-    "editing/video/tiktok/config.md",
     "editing/video/premiere_pro/effetti/vol-musica+voce.md",
     "editing/video/tiktok/idee.md",
     "editing/video/youtube/config.md"

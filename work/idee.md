@@ -1,0 +1,1 @@
+- sistema linkedin accorpando le esperienze di thinkopen come in questo profilo - https://www.linkedin.com/in/antonella-ritrovato-4558529b/
