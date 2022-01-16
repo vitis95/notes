@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "work/idee.md",
+            "file": "editing/video/premiere_pro/volume+musica+parlato.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/idee.md",
+                "file": "editing/video/premiere_pro/volume+musica+parlato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
+    "editing/video/premiere_pro/volume+musica+parlato.md",
+    "editing/video/premiere_pro/effetti/vol-musica+voce.md",
+    "editing/video/youtube/config.md",
+    "36-domande-per-conoscere-persone.md",
     "work/idee.md",
     "work/note.md",
     "editing/video/tiktok/config.md",
     "personal branding/sito-web-personale/note-idee.md",
     "coding/monetate/note-monetate-cro.md",
-    "personal branding/Community e idee.md",
-    "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
-    "editing/video/premiere_pro/effetti/vol-musica+voce.md",
-    "editing/video/tiktok/idee.md",
-    "editing/video/youtube/config.md"
+    "personal branding/Community e idee.md"
   ]
 }
