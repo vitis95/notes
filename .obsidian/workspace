@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "editing/video/premiere_pro/volume+musica+parlato.md",
+            "file": "work/intro.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "editing/video/premiere_pro/volume+musica+parlato.md",
+                "file": "work/intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
+    "work/intro.md",
+    "work/note.md",
+    "work/idee.md",
+    "1 - Inbox/img/Pasted image 20211025171853.png",
     "editing/video/premiere_pro/volume+musica+parlato.md",
     "editing/video/premiere_pro/effetti/vol-musica+voce.md",
     "editing/video/youtube/config.md",
     "36-domande-per-conoscere-persone.md",
-    "work/idee.md",
-    "work/note.md",
     "editing/video/tiktok/config.md",
-    "personal branding/sito-web-personale/note-idee.md",
-    "coding/monetate/note-monetate-cro.md",
-    "personal branding/Community e idee.md"
+    "personal branding/sito-web-personale/note-idee.md"
   ]
 }
