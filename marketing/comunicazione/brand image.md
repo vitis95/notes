@@ -1,0 +1,1 @@
+Definita come ciò che il consumatore riconosce del brand.

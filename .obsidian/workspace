@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "fotografia/fotografi.md",
+            "file": "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fotografia/fotografi.md",
+                "file": "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "346711c0b9fb3202",
   "lastOpenFiles": [
+    "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
+    "marketing/comunicazione/brand image.md",
+    "marketing/comunicazione/brand identity.md",
+    "marketing/digital_marketing/seo/SEO e consigli per articoli.md",
     "fotografia/fotografi.md",
     "work/intro.md",
     "work/note.md",
     "work/idee.md",
     "1 - Inbox/img/Pasted image 20211025171853.png",
-    "editing/video/premiere_pro/volume+musica+parlato.md",
-    "editing/video/premiere_pro/effetti/vol-musica+voce.md",
-    "editing/video/youtube/config.md",
-    "36-domande-per-conoscere-persone.md",
-    "editing/video/tiktok/config.md"
+    "editing/video/premiere_pro/volume+musica+parlato.md"
   ]
 }
