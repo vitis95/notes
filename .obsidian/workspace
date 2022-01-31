@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "346711c0b9fb3202",
+        "id": "4f4244f3088ae779",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
+            "file": "ideas.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
+                "file": "ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "346711c0b9fb3202",
+  "active": "4f4244f3088ae779",
   "lastOpenFiles": [
+    "ideas.md",
+    "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
+    "personal branding/youtube/ideas/PBIDV-idea-youtube-0001.md",
+    "personal branding/youtube/ideas/ideas.md",
+    "personal branding/Community e idee.md",
     "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
     "marketing/comunicazione/brand image.md",
     "marketing/comunicazione/brand identity.md",
     "marketing/digital_marketing/seo/SEO e consigli per articoli.md",
-    "fotografia/fotografi.md",
-    "work/intro.md",
-    "work/note.md",
-    "work/idee.md",
-    "1 - Inbox/img/Pasted image 20211025171853.png",
-    "editing/video/premiere_pro/volume+musica+parlato.md"
+    "fotografia/fotografi.md"
   ]
 }
