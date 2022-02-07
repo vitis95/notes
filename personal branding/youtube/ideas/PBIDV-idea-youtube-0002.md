@@ -1,0 +1,1 @@
+Scrivi storia fai Storytelling e Facci poi dei video per esempio la spensieratezza regalata degli artisti per esempio a Sanremo
