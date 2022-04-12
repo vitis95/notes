@@ -1,4 +1,5 @@
 {
   "baseFontSize": 29,
-  "theme": "moonstone"
+  "theme": "obsidian",
+  "translucency": true
 }

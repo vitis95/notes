@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ideas.md",
+            "file": "javascript/bind_call_apply.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Siteground",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ideas.md",
+                "file": "javascript/bind_call_apply.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,20 +83,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "4f4244f3088ae779",
   "lastOpenFiles": [
-    "ideas.md",
-    "personal branding/youtube/ideas/PBIDV-idea-youtube-0002.md",
-    "personal branding/youtube/ideas/PBIDV-idea-youtube-0001.md",
-    "personal branding/youtube/INTRO - OUTRO - MUSICA - CANALE YOUTUBE.md",
-    "personal branding/youtube/ideas/ideas.md",
+    "javascript/bind_call_apply.md",
+    "1 - Inbox/Parla con Walter.md",
+    "1 - Inbox/subaffitto.md",
+    "36-domande-per-conoscere-persone.md",
+    "personal branding/sito-web-personale/note-idee.md",
     "personal branding/Community e idee.md",
-    "marketing/digital_marketing/comunicazione/guida creazione brand identity.md",
-    "marketing/comunicazione/brand image.md",
-    "marketing/comunicazione/brand identity.md",
-    "marketing/digital_marketing/seo/SEO e consigli per articoli.md"
+    "work/intro.md",
+    "work/idee.md",
+    "work/candidature/Gruppo L'oreal Milano.md",
+    "ideas.md"
   ]
 }
